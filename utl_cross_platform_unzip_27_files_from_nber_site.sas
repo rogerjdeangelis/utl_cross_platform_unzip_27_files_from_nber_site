@@ -89,6 +89,50 @@ PROCESS
    else status="Failed";
 
  run;quit;
+ 
+ *                _               _       _
+ _ __ ___   __ _| | _____     __| | __ _| |_ __ _
+| '_ ` _ \ / _` | |/ / _ \   / _` |/ _` | __/ _` |
+| | | | | | (_| |   <  __/  | (_| | (_| | || (_| |
+|_| |_| |_|\__,_|_|\_\___|   \__,_|\__,_|\__\__,_|
+
+;
+
+data have;
+informat inpdir $10. outDir $7. zip $21.;
+input inpDir outDir zip;
+cards4;
+d:/pos/zip d:/pos pos1991.sas7bdat.zip
+d:/pos/zip d:/pos pos1992.sas7bdat.zip
+d:/pos/zip d:/pos pos1993.sas7bdat.zip
+d:/pos/zip d:/pos pos1994.sas7bdat.zip
+d:/pos/zip d:/pos pos1995.sas7bdat.zip
+d:/pos/zip d:/pos pos1996.sas7bdat.zip
+d:/pos/zip d:/pos pos1997.sas7bdat.zip
+d:/pos/zip d:/pos pos1998.sas7bdat.zip
+d:/pos/zip d:/pos pos1999.sas7bdat.zip
+d:/pos/zip d:/pos pos2000.sas7bdat.zip
+d:/pos/zip d:/pos pos2001.sas7bdat.zip
+d:/pos/zip d:/pos pos2002.sas7bdat.zip
+d:/pos/zip d:/pos pos2003.sas7bdat.zip
+d:/pos/zip d:/pos pos2004.sas7bdat.zip
+d:/pos/zip d:/pos pos2005.sas7bdat.zip
+d:/pos/zip d:/pos pos2006.sas7bdat.zip
+d:/pos/zip d:/pos pos2007.sas7bdat.zip
+d:/pos/zip d:/pos pos2008.sas7bdat.zip
+d:/pos/zip d:/pos pos2009.sas7bdat.zip
+d:/pos/zip d:/pos pos2010.sas7bdat.zip
+d:/pos/zip d:/pos pos2011.sas7bdat.zip
+d:/pos/zip d:/pos pos2012.sas7bdat.zip
+d:/pos/zip d:/pos pos2013.sas7bdat.zip
+d:/pos/zip d:/pos pos2014.sas7bdat.zip
+d:/pos/zip d:/pos pos2015.sas7bdat.zip
+d:/pos/zip d:/pos pos2016.sas7bdat.zip
+d:/pos/zip d:/pos pos2017.sas7bdat.zip
+;;;;
+run;quit;
+
+
 
 LOG
 ===
